@@ -1,0 +1,4 @@
+{
+    "dotnet.defaultSolution": "MessyNotetaker.sln",
+    "FSharp.suggestGitignore": false
+}
