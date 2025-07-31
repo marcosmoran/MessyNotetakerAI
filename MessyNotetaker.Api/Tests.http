@@ -1,1 +1,13 @@
-GET http://localhost:5042/notes
+GET http://localhost:5042/notes/1
+###
+PUT http://localhost:5042/notes/1
+Content-Type: application/json
+
+{
+        "Title": "Ideas for App2",
+        "Tag": "Project",
+        "messyNote": "tes test est",
+        "formattedNote": "Note cleaner with AI rewriting. Consider using Blazor.",
+        "timeCreated": "2025-07-31T14:30:00",
+        "timeUpdated": "2025-07-31T14:30:00"
+}

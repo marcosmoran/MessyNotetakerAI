@@ -1,7 +1,6 @@
 namespace MessyNotetaker.Api.Dtos;
 
-public record class NoteDto(
-    int Id,
+public record class UpdateNoteDto(
     string Title, 
     string Tag, 
     string MessyNote, 
